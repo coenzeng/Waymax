@@ -8,6 +8,7 @@ Waymax is a personal health assistant, inspired by Baymax from Big Hero 6. Ask i
 
 In the project directory, you can run:
 ```
+npm i 
 cd twillio
 npm start 
 cd ..
