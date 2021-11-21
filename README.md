@@ -2,6 +2,8 @@
 
 Waymax is a personal health assistant, inspired by Baymax from Big Hero 6. Ask it anything and it will respond with relevent information!
 
+<img width="1266" alt="Screen Shot 2021-11-21 at 2 15 02 AM" src="https://user-images.githubusercontent.com/63679316/142753234-0f64292a-fc2a-4874-b3d9-5ad6de9d0031.png">
+
 ## Contribute
 
 In the project directory, you can run:
