@@ -1,9 +1,9 @@
 import './eyes.css';
 
 const Eyes = () => (
-    <div class="face">
-    <div class="eye"></div>
-    <div class="eye"></div>
+    <div className="face">
+    <div className="eye"></div>
+    <div className="eye"></div>
   </div>
 );
 

@@ -39,11 +39,36 @@ input, button
     
     width: 900px;
     padding: 35px;
-    margin: 100px auto 0 auto;
+    margin: 100px auto 0 ;
     background-color: #ff7575;
     border-radius: 70px;
     box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
     transform: scale(0.6);
+}
+
+.result {
+    font-family: monospace;
+    position: relative;
+    text-align: left;
+    font-size: 30px;
+    width: 900px;
+    padding: 35px;
+    margin-left: -35px;
+    margin-bottom: -50px;
+    background-color: #ff7575;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
+    transform: scale(0.6);
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 600;
+    text-decoration: none;
+    color:#852525;
+}
+.title:hover {
+    text-decoration: underline;
 }
 
 form
