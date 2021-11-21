@@ -5,13 +5,14 @@ Waymax is a personal health assistant, inspired by Baymax from Big Hero 6. Ask i
 ## Contribute
 
 In the project directory, you can run:
-`cd `
-# `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.
+```
+cd twillio
+npm start 
+cd ..
+npm start
+```
+The first `npm start` runs the Twillio chatbox app, and the second one in the main directory runs the main React interface.
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 ## Google Custom Search JSON API
 
