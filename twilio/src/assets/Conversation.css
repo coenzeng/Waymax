@@ -1,5 +1,7 @@
-div {
-  /* border: 1px solid black;*/
+.logo-text {
+  width: 200px;
+  margin-top: -50px;
+  margin-left: -20px;
 }
 
 #ChatWindow {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Button, Input, Icon, Form, Row, Col, Card } from 'antd';
-import { ReactComponent as Logo } from './assets/twilio-mark-red.svg';
+import Logo from "./assets/waymaxlogo.png";
 
 const { Content } = Layout;
 
@@ -32,7 +32,7 @@ export class LoginPage extends React.Component {
                         <Col span={12} offset={6}>
                             <Card style={{ maxWidth: '404px' }}>
                                 <Row type="flex" justify="center" align="middle" style={{ marginBottom: '30px' }}>
-                                    <Logo/>
+                                    <Logo style={{ maxWidth: '200px' }}/>
                                 </Row>
 
                                 <Form onSubmit={this.handleSubmit}>

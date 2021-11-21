@@ -4,7 +4,7 @@ import { Client as ConversationsClient } from "@twilio/conversations";
 
 import "./assets/Conversation.css";
 import "./assets/ConversationSection.css";
-import { ReactComponent as Logo } from "./assets/twilio-mark-red.svg";
+import Logo from "./assets/waymaxlogo.png";
 
 import Conversation from "./Conversation";
 import LoginPage from "./LoginPage";
@@ -159,14 +159,10 @@ class ConversationsApp extends React.Component {
                   alignItems: "center"
                 }}
               >
-                <HeaderItem style={{ paddingRight: "0", display: "flex" }}>
-                  <Logo />
+                <HeaderItem style={{ "margin-top": "50px", display: "flex" }}>
+                <img src={Logo} className="logo-text" alt="Logo" />
                 </HeaderItem>
-                <HeaderItem>
-                  <Text strong style={{ color: "white" }}>
-                    Conversations
-                  </Text>
-                </HeaderItem>
+            
               </div>
               <div style={{ display: "flex", width: "100%" }}>
                 <HeaderItem>
@@ -176,27 +172,8 @@ class ConversationsApp extends React.Component {
                         selectedConversation.sid)}
                   </Text>
                 </HeaderItem>
-                <HeaderItem style={{ float: "right", marginLeft: "auto" }}>
-                  <span
-                    style={{ color: "white" }}
-                  >{` ${this.state.statusString}`}</span>
-                  <Badge
-                    dot={true}
-                    status={this.state.status}
-                    style={{ marginLeft: "1em" }}
-                  />
-                </HeaderItem>
-                <HeaderItem>
-                  <Icon
-                    type="poweroff"
-                    onClick={this.logOut}
-                    style={{
-                      color: "white",
-                      fontSize: "20px",
-                      marginLeft: "auto"
-                    }}
-                  />
-                </HeaderItem>
+             
+                
               </div>
             </Header>
             <Layout>

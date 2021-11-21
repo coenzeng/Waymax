@@ -23,10 +23,11 @@ code {
 
 .conversations-window-wrapper {
   height: inherit;
-  background-color: #f0f2f5;
+  
 }
 
 .conversations-window-container {
+  background-color: #e83030;
   position: relative;
   max-width: 1268px;
   height: calc(100% - 16px);
