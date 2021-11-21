@@ -68,8 +68,8 @@ class ConversationsApp extends React.Component {
 
   getToken = () => {
     // Paste your unique Chat token function
-    const myToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzdlNDBkNmYyZWQxZmE5M2YzNDI2NmQ2NTY1NDBkYTlhLTE2Mzc0NjMzNTkiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJTYW11ZWwiLCJjaGF0Ijp7InNlcnZpY2Vfc2lkIjoiSVMzNzVjMzI4Mzg5N2Y0YzdkYjlmYjY3ODM0M2U0ZmU5OCJ9fSwiaWF0IjoxNjM3NDYzMzU5LCJleHAiOjE2Mzc0NjY5NTksImlzcyI6IlNLN2U0MGQ2ZjJlZDFmYTkzZjM0MjY2ZDY1NjU0MGRhOWEiLCJzdWIiOiJBQ2FlZjU2MTNmMmFhMmQxMzMwODllYTQ4NzM5ZTA5N2JkIn0.spBtNcgLiQNXp5KnbVFp17964ZVetpaQ1SO-bBWVcac";
-      this.setState({ token: myToken }, this.initConversations);
+    const myToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzdlNDBkNmYyZWQxZmE5M2YzNDI2NmQ2NTY1NDBkYTlhLTE2Mzc0ODAwMTkiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJBYmR1bCIsImNoYXQiOnsic2VydmljZV9zaWQiOiJJUzM3NWMzMjgzODk3ZjRjN2RiOWZiNjc4MzQzZTRmZTk4In19LCJpYXQiOjE2Mzc0ODAwMTksImV4cCI6MTYzNzQ4MzYxOSwiaXNzIjoiU0s3ZTQwZDZmMmVkMWZhOTNmMzQyNjZkNjU2NTQwZGE5YSIsInN1YiI6IkFDYWVmNTYxM2YyYWEyZDEzMzA4OWVhNDg3MzllMDk3YmQifQ.s_H7-SXUi0n0dOX7vZzRDZlSzrfBD2O0Scr6paM79IU"
+    this.setState({ token: myToken }, this.initConversations);
   };
 
   initConversations = async () => {
