@@ -8,13 +8,13 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <header className="App-header">
+      <div className="App-header">
       
         <Eyes/>
         <SpeechBubble/>
         <Search/>
-       
-      </header>
+      
+      </div>
     
     </div>
   );
